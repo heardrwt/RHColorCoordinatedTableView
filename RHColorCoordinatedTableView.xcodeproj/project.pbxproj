@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133B36D7161BBAB500AE4CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133B36D6161BBAB500AE4CB5 /* Foundation.framework */; };
+		133B36DC161BBAB500AE4CB5 /* RHColorCoordinatedTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 133B36DB161BBAB500AE4CB5 /* RHColorCoordinatedTableView.h */; };
+		133B36DE161BBAB500AE4CB5 /* RHColorCoordinatedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B36DD161BBAB500AE4CB5 /* RHColorCoordinatedTableView.m */; };
+		133B36EB161D075200AE4CB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133B36EA161D075200AE4CB5 /* UIKit.framework */; };
+		133B36EC161D075200AE4CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133B36D6161BBAB500AE4CB5 /* Foundation.framework */; };
+		133B36EE161D075300AE4CB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133B36ED161D075200AE4CB5 /* CoreGraphics.framework */; };
+		133B36F4161D075300AE4CB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 133B36F2161D075300AE4CB5 /* InfoPlist.strings */; };
+		133B36F6161D075300AE4CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B36F5161D075300AE4CB5 /* main.m */; };
+		133B36FA161D075300AE4CB5 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B36F9161D075300AE4CB5 /* RHAppDelegate.m */; };
+		133B36FC161D075300AE4CB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 133B36FB161D075300AE4CB5 /* Default.png */; };
+		133B36FE161D075300AE4CB5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 133B36FD161D075300AE4CB5 /* Default@2x.png */; };
+		133B3700161D075300AE4CB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 133B36FF161D075300AE4CB5 /* Default-568h@2x.png */; };
+		133B3703161D075300AE4CB5 /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133B3702161D075300AE4CB5 /* RHViewController.m */; };
+		133B3706161D075300AE4CB5 /* RHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 133B3704161D075300AE4CB5 /* RHViewController.xib */; };
+		133B370C161D0B9900AE4CB5 /* libRHColorCoordinatedTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 133B36D3161BBAB500AE4CB5 /* libRHColorCoordinatedTableView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		133B370A161D0B9300AE4CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133B36CA161BBAB500AE4CB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133B36D2161BBAB500AE4CB5;
+			remoteInfo = RHColorCoordinatedTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		133B36D1161BBAB500AE4CB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				133B36DC161BBAB500AE4CB5 /* RHColorCoordinatedTableView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		133B36D3161BBAB500AE4CB5 /* libRHColorCoordinatedTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRHColorCoordinatedTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		133B36D6161BBAB500AE4CB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		133B36DA161BBAB500AE4CB5 /* RHColorCoordinatedTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHColorCoordinatedTableView-Prefix.pch"; sourceTree = "<group>"; };
+		133B36DB161BBAB500AE4CB5 /* RHColorCoordinatedTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHColorCoordinatedTableView.h; sourceTree = "<group>"; };
+		133B36DD161BBAB500AE4CB5 /* RHColorCoordinatedTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHColorCoordinatedTableView.m; sourceTree = "<group>"; };
+		133B36E8161D075200AE4CB5 /* ColorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		133B36EA161D075200AE4CB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		133B36ED161D075200AE4CB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		133B36F1161D075300AE4CB5 /* ColorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorDemo-Info.plist"; sourceTree = "<group>"; };
+		133B36F3161D075300AE4CB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		133B36F5161D075300AE4CB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		133B36F7161D075300AE4CB5 /* ColorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		133B36F8161D075300AE4CB5 /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		133B36F9161D075300AE4CB5 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		133B36FB161D075300AE4CB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		133B36FD161D075300AE4CB5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		133B36FF161D075300AE4CB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		133B3701161D075300AE4CB5 /* RHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
+		133B3702161D075300AE4CB5 /* RHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
+		133B3705161D075300AE4CB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133B36D0161BBAB500AE4CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133B36D7161BBAB500AE4CB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133B36E5161D075200AE4CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133B370C161D0B9900AE4CB5 /* libRHColorCoordinatedTableView.a in Frameworks */,
+				133B36EB161D075200AE4CB5 /* UIKit.framework in Frameworks */,
+				133B36EC161D075200AE4CB5 /* Foundation.framework in Frameworks */,
+				133B36EE161D075300AE4CB5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133B36C8161BBAB500AE4CB5 = {
+			isa = PBXGroup;
+			children = (
+				133B36D8161BBAB500AE4CB5 /* RHColorCoordinatedTableView */,
+				133B36EF161D075300AE4CB5 /* ColorDemo */,
+				133B36D5161BBAB500AE4CB5 /* Frameworks */,
+				133B36D4161BBAB500AE4CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		133B36D4161BBAB500AE4CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133B36D3161BBAB500AE4CB5 /* libRHColorCoordinatedTableView.a */,
+				133B36E8161D075200AE4CB5 /* ColorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133B36D5161BBAB500AE4CB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133B36D6161BBAB500AE4CB5 /* Foundation.framework */,
+				133B36EA161D075200AE4CB5 /* UIKit.framework */,
+				133B36ED161D075200AE4CB5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		133B36D8161BBAB500AE4CB5 /* RHColorCoordinatedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				133B36DB161BBAB500AE4CB5 /* RHColorCoordinatedTableView.h */,
+				133B36DD161BBAB500AE4CB5 /* RHColorCoordinatedTableView.m */,
+				133B36D9161BBAB500AE4CB5 /* Supporting Files */,
+			);
+			path = RHColorCoordinatedTableView;
+			sourceTree = "<group>";
+		};
+		133B36D9161BBAB500AE4CB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				133B36DA161BBAB500AE4CB5 /* RHColorCoordinatedTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		133B36EF161D075300AE4CB5 /* ColorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				133B36F8161D075300AE4CB5 /* RHAppDelegate.h */,
+				133B36F9161D075300AE4CB5 /* RHAppDelegate.m */,
+				133B3701161D075300AE4CB5 /* RHViewController.h */,
+				133B3702161D075300AE4CB5 /* RHViewController.m */,
+				133B3704161D075300AE4CB5 /* RHViewController.xib */,
+				133B36F0161D075300AE4CB5 /* Supporting Files */,
+			);
+			path = ColorDemo;
+			sourceTree = "<group>";
+		};
+		133B36F0161D075300AE4CB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				133B36F1161D075300AE4CB5 /* ColorDemo-Info.plist */,
+				133B36F2161D075300AE4CB5 /* InfoPlist.strings */,
+				133B36F5161D075300AE4CB5 /* main.m */,
+				133B36F7161D075300AE4CB5 /* ColorDemo-Prefix.pch */,
+				133B36FB161D075300AE4CB5 /* Default.png */,
+				133B36FD161D075300AE4CB5 /* Default@2x.png */,
+				133B36FF161D075300AE4CB5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133B36D2161BBAB500AE4CB5 /* RHColorCoordinatedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133B36E1161BBAB500AE4CB5 /* Build configuration list for PBXNativeTarget "RHColorCoordinatedTableView" */;
+			buildPhases = (
+				133B36CF161BBAB500AE4CB5 /* Sources */,
+				133B36D0161BBAB500AE4CB5 /* Frameworks */,
+				133B36D1161BBAB500AE4CB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHColorCoordinatedTableView;
+			productName = RHColorCoordinatedTableView;
+			productReference = 133B36D3161BBAB500AE4CB5 /* libRHColorCoordinatedTableView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		133B36E7161D075200AE4CB5 /* ColorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133B3707161D075300AE4CB5 /* Build configuration list for PBXNativeTarget "ColorDemo" */;
+			buildPhases = (
+				133B36E4161D075200AE4CB5 /* Sources */,
+				133B36E5161D075200AE4CB5 /* Frameworks */,
+				133B36E6161D075200AE4CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133B370B161D0B9300AE4CB5 /* PBXTargetDependency */,
+			);
+			name = ColorDemo;
+			productName = ColorDemo;
+			productReference = 133B36E8161D075200AE4CB5 /* ColorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		133B36CA161BBAB500AE4CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Richard Heard";
+			};
+			buildConfigurationList = 133B36CD161BBAB500AE4CB5 /* Build configuration list for PBXProject "RHColorCoordinatedTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 133B36C8161BBAB500AE4CB5;
+			productRefGroup = 133B36D4161BBAB500AE4CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133B36D2161BBAB500AE4CB5 /* RHColorCoordinatedTableView */,
+				133B36E7161D075200AE4CB5 /* ColorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133B36E6161D075200AE4CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133B36F4161D075300AE4CB5 /* InfoPlist.strings in Resources */,
+				133B36FC161D075300AE4CB5 /* Default.png in Resources */,
+				133B36FE161D075300AE4CB5 /* Default@2x.png in Resources */,
+				133B3700161D075300AE4CB5 /* Default-568h@2x.png in Resources */,
+				133B3706161D075300AE4CB5 /* RHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133B36CF161BBAB500AE4CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133B36DE161BBAB500AE4CB5 /* RHColorCoordinatedTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133B36E4161D075200AE4CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133B36F6161D075300AE4CB5 /* main.m in Sources */,
+				133B36FA161D075300AE4CB5 /* RHAppDelegate.m in Sources */,
+				133B3703161D075300AE4CB5 /* RHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		133B370B161D0B9300AE4CB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133B36D2161BBAB500AE4CB5 /* RHColorCoordinatedTableView */;
+			targetProxy = 133B370A161D0B9300AE4CB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		133B36F2161D075300AE4CB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133B36F3161D075300AE4CB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		133B3704161D075300AE4CB5 /* RHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133B3705161D075300AE4CB5 /* en */,
+			);
+			name = RHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		133B36DF161BBAB500AE4CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		133B36E0161BBAB500AE4CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		133B36E2161BBAB500AE4CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RHColorCoordinatedTableView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHColorCoordinatedTableView/RHColorCoordinatedTableView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		133B36E3161BBAB500AE4CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RHColorCoordinatedTableView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHColorCoordinatedTableView/RHColorCoordinatedTableView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		133B3708161D075300AE4CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorDemo/ColorDemo-Prefix.pch";
+				INFOPLIST_FILE = "ColorDemo/ColorDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		133B3709161D075300AE4CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorDemo/ColorDemo-Prefix.pch";
+				INFOPLIST_FILE = "ColorDemo/ColorDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133B36CD161BBAB500AE4CB5 /* Build configuration list for PBXProject "RHColorCoordinatedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133B36DF161BBAB500AE4CB5 /* Debug */,
+				133B36E0161BBAB500AE4CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133B36E1161BBAB500AE4CB5 /* Build configuration list for PBXNativeTarget "RHColorCoordinatedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133B36E2161BBAB500AE4CB5 /* Debug */,
+				133B36E3161BBAB500AE4CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133B3707161D075300AE4CB5 /* Build configuration list for PBXNativeTarget "ColorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133B3708161D075300AE4CB5 /* Debug */,
+				133B3709161D075300AE4CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133B36CA161BBAB500AE4CB5 /* Project object */;
+}
